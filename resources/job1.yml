@@ -13,3 +13,4 @@ resources:
             source: WORKSPACE
       queue:
         enabled: true
+        
