@@ -13,4 +13,14 @@ resources:
             source: WORKSPACE
       queue:
         enabled: true
+    job2:
+      name: Task2 
+      tasks:
+        - task_key: Task1
+          notebook_task:
+            notebook_path: ../src/notebooks/notebook1.ipynb
+            base_parameters:
+            source: WORKSPACE
+      queue:
+        enabled: true   
         
