@@ -16,9 +16,9 @@ resources:
     job2:
       name: Task2 
       tasks:
-        - task_key: Task1
+        - task_key: Task
           notebook_task:
-            notebook_path: ../src/notebooks/notebook1.ipynb
+            notebook_path: ../src/notebooks/ashwini.ipynb
             base_parameters:
             source: WORKSPACE
       queue:
