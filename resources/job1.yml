@@ -11,8 +11,8 @@ resources:
               value1: 15
               value2: 10
             source: WORKSPACE
-      queue:
-        enabled: true
+      # queue:
+      #   enabled: true
       tasks:
         - task_key: Task2
           notebook_task:
