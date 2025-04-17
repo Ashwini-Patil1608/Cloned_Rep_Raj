@@ -13,13 +13,12 @@ resources:
             source: WORKSPACE
       queue:
         enabled: true
-    job2:
-      name: Task2 
       tasks:
-        - task_key: Task
+        - task_key: Task2
           notebook_task:
             notebook_path: ../src/notebooks/ashwini.ipynb
             base_parameters:
+              env: ${var.env}
             source: WORKSPACE
       queue:
         enabled: true   
